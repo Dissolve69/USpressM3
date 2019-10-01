@@ -59,7 +59,7 @@ print(sortedwords)
 
 #------------------ Basic Sentiment Analysis ------------------#
 
-conn = sqlite3.connect("test.db")
+conn = sqlite3.connect("db.sqlite3")
 cur = conn.cursor()
 
 PositiveNum = 0
